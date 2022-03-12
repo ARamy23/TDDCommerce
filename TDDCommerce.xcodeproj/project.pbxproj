@@ -55,6 +55,7 @@
 		042CF0A82778010C00A9D3D6 /* UIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CF07C2778010C00A9D3D6 /* UIBuilder.swift */; };
 		042CF0A92778010C00A9D3D6 /* FoundationUIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CF07D2778010C00A9D3D6 /* FoundationUIBuilder.swift */; };
 		042CF0AA2778010C00A9D3D6 /* StaticUIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CF07E2778010C00A9D3D6 /* StaticUIBuilder.swift */; };
+		045AD4AC27DC58CF00A931C6 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045AD4AB27DC58CF00A931C6 /* HomeTests.swift */; };
 		46E91CF0CA4B6B4F1C35E7D1 /* Pods_TDDCommerceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A79A87ECAF3291E7A7DA482 /* Pods_TDDCommerceTests.framework */; };
 		B6E2A88A0C2293B508445EFC /* Pods_TDDCommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49CD9E85B1A7733337262D0 /* Pods_TDDCommerce.framework */; };
 /* End PBXBuildFile section */
@@ -122,6 +123,7 @@
 		042CF07C2778010C00A9D3D6 /* UIBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBuilder.swift; sourceTree = "<group>"; };
 		042CF07D2778010C00A9D3D6 /* FoundationUIBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationUIBuilder.swift; sourceTree = "<group>"; };
 		042CF07E2778010C00A9D3D6 /* StaticUIBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticUIBuilder.swift; sourceTree = "<group>"; };
+		045AD4AB27DC58CF00A931C6 /* HomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
 		1EBC226C6EAD590FD0645C84 /* Pods-TDDCommerceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCommerceTests.debug.xcconfig"; path = "Target Support Files/Pods-TDDCommerceTests/Pods-TDDCommerceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A79A87ECAF3291E7A7DA482 /* Pods_TDDCommerceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDDCommerceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6268B193BA9AA80609B4DE01 /* Pods-TDDCommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCommerce.release.xcconfig"; path = "Target Support Files/Pods-TDDCommerce/Pods-TDDCommerce.release.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 		040EC35027DC558E007725AC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				045AD4AB27DC58CF00A931C6 /* HomeTests.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -433,7 +436,6 @@
 				1EBC226C6EAD590FD0645C84 /* Pods-TDDCommerceTests.debug.xcconfig */,
 				032630E408AA1CF91EC85AA4 /* Pods-TDDCommerceTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -490,6 +492,7 @@
 				TargetAttributes = {
 					040EC34427DC541F007725AC = {
 						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
 						TestTargetID = 042CF02B2778004E00A9D3D6;
 					};
 					042CF02B2778004E00A9D3D6 = {
@@ -614,6 +617,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045AD4AC27DC58CF00A931C6 /* HomeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,14 +699,21 @@
 			baseConfigurationReference = 1EBC226C6EAD590FD0645C84 /* Pods-TDDCommerceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 969Y6REAB6;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aramy.TDDCommerceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDCommerce.app/TDDCommerce";
@@ -714,10 +725,16 @@
 			baseConfigurationReference = 032630E408AA1CF91EC85AA4 /* Pods-TDDCommerceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 969Y6REAB6;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aramy.TDDCommerceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
