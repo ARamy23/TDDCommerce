@@ -55,6 +55,8 @@
 		042CF0A82778010C00A9D3D6 /* UIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CF07C2778010C00A9D3D6 /* UIBuilder.swift */; };
 		042CF0A92778010C00A9D3D6 /* FoundationUIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CF07D2778010C00A9D3D6 /* FoundationUIBuilder.swift */; };
 		042CF0AA2778010C00A9D3D6 /* StaticUIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CF07E2778010C00A9D3D6 /* StaticUIBuilder.swift */; };
+		46E91CF0CA4B6B4F1C35E7D1 /* Pods_TDDCommerceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A79A87ECAF3291E7A7DA482 /* Pods_TDDCommerceTests.framework */; };
+		B6E2A88A0C2293B508445EFC /* Pods_TDDCommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49CD9E85B1A7733337262D0 /* Pods_TDDCommerce.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032630E408AA1CF91EC85AA4 /* Pods-TDDCommerceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCommerceTests.release.xcconfig"; path = "Target Support Files/Pods-TDDCommerceTests/Pods-TDDCommerceTests.release.xcconfig"; sourceTree = "<group>"; };
 		040EC34527DC541F007725AC /* TDDCommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDCommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042CF02C2778004E00A9D3D6 /* TDDCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042CF02F2778004E00A9D3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +122,11 @@
 		042CF07C2778010C00A9D3D6 /* UIBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBuilder.swift; sourceTree = "<group>"; };
 		042CF07D2778010C00A9D3D6 /* FoundationUIBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationUIBuilder.swift; sourceTree = "<group>"; };
 		042CF07E2778010C00A9D3D6 /* StaticUIBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticUIBuilder.swift; sourceTree = "<group>"; };
+		1EBC226C6EAD590FD0645C84 /* Pods-TDDCommerceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCommerceTests.debug.xcconfig"; path = "Target Support Files/Pods-TDDCommerceTests/Pods-TDDCommerceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A79A87ECAF3291E7A7DA482 /* Pods_TDDCommerceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDDCommerceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6268B193BA9AA80609B4DE01 /* Pods-TDDCommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCommerce.release.xcconfig"; path = "Target Support Files/Pods-TDDCommerce/Pods-TDDCommerce.release.xcconfig"; sourceTree = "<group>"; };
+		B07B533C9193E68707EEC2A5 /* Pods-TDDCommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCommerce.debug.xcconfig"; path = "Target Support Files/Pods-TDDCommerce/Pods-TDDCommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		B49CD9E85B1A7733337262D0 /* Pods_TDDCommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDDCommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E91CF0CA4B6B4F1C35E7D1 /* Pods_TDDCommerceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E2A88A0C2293B508445EFC /* Pods_TDDCommerce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +218,8 @@
 				042CF02E2778004E00A9D3D6 /* TDDCommerce */,
 				040EC34627DC541F007725AC /* TDDCommerceTests */,
 				042CF02D2778004E00A9D3D6 /* Products */,
+				A201707D4EAC038205C3BA26 /* Pods */,
+				3E717CF4A05C842C1538FABA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -404,6 +416,27 @@
 			path = "Layout Builders";
 			sourceTree = "<group>";
 		};
+		3E717CF4A05C842C1538FABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49CD9E85B1A7733337262D0 /* Pods_TDDCommerce.framework */,
+				5A79A87ECAF3291E7A7DA482 /* Pods_TDDCommerceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A201707D4EAC038205C3BA26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B07B533C9193E68707EEC2A5 /* Pods-TDDCommerce.debug.xcconfig */,
+				6268B193BA9AA80609B4DE01 /* Pods-TDDCommerce.release.xcconfig */,
+				1EBC226C6EAD590FD0645C84 /* Pods-TDDCommerceTests.debug.xcconfig */,
+				032630E408AA1CF91EC85AA4 /* Pods-TDDCommerceTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -411,9 +444,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040EC34D27DC541F007725AC /* Build configuration list for PBXNativeTarget "TDDCommerceTests" */;
 			buildPhases = (
+				48BA67AC8A2F9A1B83EC657C /* [CP] Check Pods Manifest.lock */,
 				040EC34127DC541F007725AC /* Sources */,
 				040EC34227DC541F007725AC /* Frameworks */,
 				040EC34327DC541F007725AC /* Resources */,
+				F9D9B35E325A020906E7D123 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -429,6 +464,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042CF0402778004F00A9D3D6 /* Build configuration list for PBXNativeTarget "TDDCommerce" */;
 			buildPhases = (
+				298636E669B7789B947071F3 /* [CP] Check Pods Manifest.lock */,
 				042CF0282778004E00A9D3D6 /* Sources */,
 				042CF0292778004E00A9D3D6 /* Frameworks */,
 				042CF02A2778004E00A9D3D6 /* Resources */,
@@ -508,6 +544,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		298636E669B7789B947071F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDDCommerce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48BA67AC8A2F9A1B83EC657C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDDCommerceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9D9B35E325A020906E7D123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDDCommerceTests/Pods-TDDCommerceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDDCommerceTests/Pods-TDDCommerceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TDDCommerceTests/Pods-TDDCommerceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		040EC34127DC541F007725AC /* Sources */ = {
@@ -592,6 +692,7 @@
 /* Begin XCBuildConfiguration section */
 		040EC34B27DC541F007725AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBC226C6EAD590FD0645C84 /* Pods-TDDCommerceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -610,6 +711,7 @@
 		};
 		040EC34C27DC541F007725AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032630E408AA1CF91EC85AA4 /* Pods-TDDCommerceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -744,6 +846,7 @@
 		};
 		042CF0412778004F00A9D3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07B533C9193E68707EEC2A5 /* Pods-TDDCommerce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -772,6 +875,7 @@
 		};
 		042CF0422778004F00A9D3D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6268B193BA9AA80609B4DE01 /* Pods-TDDCommerce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
