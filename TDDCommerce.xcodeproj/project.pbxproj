@@ -42,6 +42,7 @@
 		042CF03D2778004F00A9D3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045AD4AB27DC58CF00A931C6 /* HomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
 		045AD4AF27DC5C5000A931C6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		045AD4B127DC5D7200A931C6 /* OrdiCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OrdiCore; sourceTree = "<group>"; };
 		1EBC226C6EAD590FD0645C84 /* Pods-TDDCommerceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCommerceTests.debug.xcconfig"; path = "Target Support Files/Pods-TDDCommerceTests/Pods-TDDCommerceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A79A87ECAF3291E7A7DA482 /* Pods_TDDCommerceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDDCommerceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6268B193BA9AA80609B4DE01 /* Pods-TDDCommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDCommerce.release.xcconfig"; path = "Target Support Files/Pods-TDDCommerce/Pods-TDDCommerce.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +137,7 @@
 		042CF0232778004D00A9D3D6 = {
 			isa = PBXGroup;
 			children = (
+				045AD4B127DC5D7200A931C6 /* OrdiCore */,
 				042CF02E2778004E00A9D3D6 /* TDDCommerce */,
 				040EC34627DC541F007725AC /* TDDCommerceTests */,
 				042CF02D2778004E00A9D3D6 /* Products */,
