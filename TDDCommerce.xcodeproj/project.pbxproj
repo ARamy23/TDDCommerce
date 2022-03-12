@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040EC34827DC541F007725AC /* TDDCommerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EC34727DC541F007725AC /* TDDCommerceTests.swift */; };
 		042CF0302778004E00A9D3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CF02F2778004E00A9D3D6 /* AppDelegate.swift */; };
 		042CF0322778004E00A9D3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CF0312778004E00A9D3D6 /* SceneDelegate.swift */; };
 		042CF0342778004E00A9D3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CF0332778004E00A9D3D6 /* ViewController.swift */; };
@@ -70,7 +69,6 @@
 
 /* Begin PBXFileReference section */
 		040EC34527DC541F007725AC /* TDDCommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDCommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		040EC34727DC541F007725AC /* TDDCommerceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDCommerceTests.swift; sourceTree = "<group>"; };
 		042CF02C2778004E00A9D3D6 /* TDDCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042CF02F2778004E00A9D3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		042CF0312778004E00A9D3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,9 +142,64 @@
 		040EC34627DC541F007725AC /* TDDCommerceTests */ = {
 			isa = PBXGroup;
 			children = (
-				040EC34727DC541F007725AC /* TDDCommerceTests.swift */,
+				040EC34E27DC555C007725AC /* Modules */,
 			);
 			path = TDDCommerceTests;
+			sourceTree = "<group>";
+		};
+		040EC34E27DC555C007725AC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				040EC35027DC558E007725AC /* Home */,
+				040EC34F27DC5571007725AC /* Items */,
+				040EC35127DC5591007725AC /* ItemDetails */,
+				040EC35227DC5595007725AC /* Cart */,
+				040EC35327DC5598007725AC /* Checkout */,
+				040EC35427DC55A6007725AC /* Payment */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		040EC34F27DC5571007725AC /* Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		040EC35027DC558E007725AC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040EC35127DC5591007725AC /* ItemDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ItemDetails;
+			sourceTree = "<group>";
+		};
+		040EC35227DC5595007725AC /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		040EC35327DC5598007725AC /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		040EC35427DC55A6007725AC /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Payment;
 			sourceTree = "<group>";
 		};
 		042CF0232778004D00A9D3D6 = {
@@ -461,7 +514,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040EC34827DC541F007725AC /* TDDCommerceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
